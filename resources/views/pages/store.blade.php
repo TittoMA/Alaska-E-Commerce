@@ -71,13 +71,13 @@
                     Store Rating
                 </div>
                 <div class="card-body">
-                    <h2 class="text-center mb-0" style="color: orange">{{$sellerRating ?? '-'}}</h2>
+                    <h2 class="text-center mb-0" style="color: #f4473e">{{$sellerRating ?? '-'}}</h2>
                 </div>
             </div>
         </div>
 
         <div class="col-md-9">
-            <div class="card shadow mb-4" style="border-left-width: 5px; border-left-color: orange">
+            <div class="card shadow mb-4" style="border-left-width: 5px; border-left-color: #f4473e">
                 <div class="card-body">
                     <h4>About</h4>
                     <p>{{ $seller->about }}</p>
@@ -131,7 +131,7 @@
                         <span class="badge rounded-pill bg-warning me-1"
                             style="font-size: 13px">{{$averageRating ?? '-'}}</span>
                         @for ($i = 0; $i < floor($averageRating); $i++) <i class="bi bi-star-fill"
-                            style="color: orange"></i>
+                            style="color: #f4473e"></i>
                             @endfor
 
                             @for ($i = 0; $i < (5 - ((floor(5 - $averageRating)) + floor($averageRating)) ); $i++) <i

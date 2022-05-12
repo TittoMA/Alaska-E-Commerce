@@ -20,7 +20,7 @@ Selain itu, banyak masyarakat di Indonesia yang cerdas dan penuh potensi namun s
 
 ## To Install This Project
 
-<h3>Run this following command in terminal: </h3>
+<h4>Run this following command in terminal: </h4>
 
 
 ```
@@ -34,13 +34,29 @@ npm install
 
 ## To Run This Project
 
-<h3>Run this following command in terminal: </h3> 
+<h4>Create the database </h4> 
+
+Create a database with the name ```alaska_db```
+
+
+Duplicate .env.example and rename with .env
+fill in ``DB_DATABASE`` with ```alaska_db``` and fill in the rest according to your database settings.
+```
+DB_DATABASE=alaska_db
+```
+
+<h4>Run this following command in terminal: </h4> 
 
 ```
 npm run dev
 ```
 
-then: 
+Migrate the database: 
+```
+php artisan migrate
+```
+
+then:
 ```
 php artisan serve
 ```

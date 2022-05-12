@@ -17,7 +17,7 @@
                 <div style="border-radius: 15px" class="card shadow p-4">
                     <div class="card-body">
 
-                        <h2 class="text-center" style="color: #f38630">Sign Up</h2>
+                        <h2 class="text-center" style="color: #f4473e">Sign Up</h2>
                         <p class="text-center text-muted mb-4">Create your new account!</p>
 
                         <form method="POST" action="{{ route('register') }}">
@@ -70,8 +70,8 @@
                                     name="password_confirmation" required autocomplete="new-password">
                             </div>
 
-                            <div class="d-grid gap-1 mt-4">
-                                <button type="submit" class="btn def-button">
+                            <div class="d-grid gap-1 mt-4 justify-content-center">
+                                <button type="submit" class="btn def-button py-2">
                                     {{ __('Register') }}
                                 </button>
 

@@ -33,10 +33,10 @@
             <div class="card br-card def-shadow">
                 <div class="card-body">
                     <p class="mb-2"><a href="{{ url('category/'.$service->category->category_name) }}"
-                            style="color: orange">{{ $service->category->category_name }}</a></p>
+                            style="color: #f4473e">{{ $service->category->category_name }}</a></p>
                     <h5>{{$service->service_name}}</h5>
                     <p class="mb-3" style="font-size: 14px">
-                        @for ($i = 0; $i < floor($rating); $i++) <i class="bi bi-star-fill" style="color: orange"></i>
+                        @for ($i = 0; $i < floor($rating); $i++) <i class="bi bi-star-fill" style="color: #f4473e"></i>
                             @endfor
 
                             @for ($i = 0; $i < (5 - ((floor(5 - $rating)) + floor($rating)) ); $i++) <i
@@ -57,13 +57,13 @@
 
                     <hr class=" my-3" style="color:#cecece">
 
-                    <p class="mb-2" style="font-size: 14px"><i class="bi bi-clock-fill me-2" style="color: orange"></i>
+                    <p class="mb-2" style="font-size: 14px"><i class="bi bi-clock-fill me-2" style="color: #f4473e"></i>
                         Estimated Time:
                         <span class="badge rounded-pill bg-primary ms-1"
                             style="font-size: 15px">{{$service->duration}}</span>
                     </p>
                     <p class="mb-2" style="font-size: 14px"><i class="bi bi-check2-square me-2"
-                            style="color: orange"></i> Sold:
+                            style="color: #f4473e"></i> Sold:
                         <span class="badge rounded-pill bg-primary ms-1"
                             style="font-size: 15px">{{$service->sold}}</span></p>
 
@@ -84,7 +84,7 @@
     <div class="card br-card def-shadow">
         <div class="card-body">
             <h4>Review</h4>
-            <hr width="75px" size="7px" style="color:#ff9849; margin-bottom: 25px">
+            <hr width="75px" size="7px" style="color:#f4473e; margin-bottom: 25px">
             @forelse ($service->sale as $item)
 
             <div class="mb-3" style="display: flex;">
@@ -96,7 +96,7 @@
                     </p>
                     <p class="mb-1" style="font-size: 12px">
                         @for ($i = 0; $i < $item->rating; $i++)
-                            <i class="bi bi-star-fill" style="color: orange"></i>
+                            <i class="bi bi-star-fill" style="color: #f4473e"></i>
                             @endfor
 
                             @for ($i = 0; $i < (5 - round($item->rating)); $i++)

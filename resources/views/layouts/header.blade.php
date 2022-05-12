@@ -111,31 +111,31 @@
                         aria-labelledby="navbarDropdown">
 
                         <a class="text-header dropdown-item" href="{{ route('profile.index') }}">
-                            <i class="bi bi-person-circle me-3" style="color: #F38630"></i>{{ __('Profile') }}
+                            <i class="bi bi-person-circle me-3" style="color: #f4473e"></i>{{ __('Profile') }}
                         </a>
 
                         @if (Auth::user()->user_type == "Seller")
                         <a href="{{ route('myStore.index') }}" class="text-header dropdown-item">
-                            <i class="bi bi-shop me-3" style="color: #F38630"></i>My Store
+                            <i class="bi bi-shop me-3" style="color: #f4473e"></i>My Store
                         </a>
                         @else
                         <a href="{{ route('seller.registration') }}" class="text-header dropdown-item"
-                            style="color: #F38630">
-                            <i class="bi bi-arrow-up-circle me-3" style="color: #F38630"></i><b>Become a Seller</b>
+                            style="color: #f4473e">
+                            <i class="bi bi-arrow-up-circle me-3" style="color: #f4473e"></i><b>Become a Seller</b>
                         </a>
                         @endif
 
                         <a class="text-header dropdown-item" href="{{ route('order.index') }}">
-                            <i class="bi bi-clipboard me-3" style="color: #F38630"></i>My Order
+                            <i class="bi bi-clipboard me-3" style="color: #f4473e"></i>My Order
                         </a>
 
                         <a class="text-header dropdown-item" href="{{ route('user.history') }}">
-                            <i class="bi bi-clock-history me-3" style="color: #F38630"></i>Transaction History
+                            <i class="bi bi-clock-history me-3" style="color: #f4473e"></i>Transaction History
                         </a>
 
                         <a class="text-header dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                           document.getElementById('logout-form').submit();">
-                            <i class="bi bi-box-arrow-left me-3" style="color: #F38630"></i>{{ __('Logout') }}
+                            <i class="bi bi-box-arrow-left me-3" style="color: #f4473e"></i>{{ __('Logout') }}
                         </a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                             @csrf

@@ -17,7 +17,7 @@
 
                     <div class="card-body">
 
-                        <h2 class="text-center" style="color: #f38630">Sign In</h2>
+                        <h2 class="text-center" style="color: #f4473e">Sign In</h2>
                         <p class="text-center text-muted mb-4">Welcome to Alaska!</p>
 
                         <form method="POST" action="{{ route('login') }}">
@@ -71,8 +71,8 @@
                                 @endif
                             </div>
 
-                            <div class="d-grid gap-1 mt-4">
-                                <button type="submit" class="btn def-button">
+                            <div class="d-grid gap-1 mt-4 justify-content-center">
+                                <button type="submit" class="btn def-button py-2">
                                     {{ __('Login') }}
                                 </button>
 
