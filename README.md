@@ -18,7 +18,8 @@ Website Alaska adalah sebuah website e-commerce yang berfokus pada penawaran jas
 Selain itu, banyak masyarakat di Indonesia yang cerdas dan penuh potensi namun sayang belum mendapatkan mediasi yang baik, sehingga diharapkan dengan adanya website ini dapat membantu masyarakat luas khususnya dibidang tersebut.
 
 
-## To Install This Project
+
+## Before Run This Project
 
 <h4>Run this following command in terminal: </h4>
 
@@ -39,13 +40,15 @@ npm install
 Create a database with the name ```alaska_db```
 
 
+
 Duplicate .env.example and rename with .env
 fill in ``DB_DATABASE`` with ```alaska_db``` and fill in the rest according to your database settings.
 ```
 DB_DATABASE=alaska_db
 ```
 
-<h4>Run this following command in terminal: </h4> 
+<h3>Run this following command in terminal: </h3> 
+
 
 ```
 npm run dev
