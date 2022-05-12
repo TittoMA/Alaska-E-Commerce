@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Kelompok Kami
+- Muhammad Prasetyo Nugroho (200535626872)
+- Titto Mahogany Attaraqie  (200535626830)
+
+
+## Tentang Alaska
+Website Alaska adalah sebuah website e-commerce yang berfokus pada penawaran jasa editing video, foto, dan animasi. Website ini bertujuan untuk mempromosikan skill Editing orang-orang dan mengembangkan potensinya serta mendapatkan income dengan sistem jual beli jasa.
+<br>
+Selain itu, banyak masyarakat di Indonesia yang cerdas dan penuh potensi namun sayang belum mendapatkan mediasi yang baik, sehingga diharapkan dengan adanya website ini dapat membantu masyarakat luas khususnya dibidang tersebut.
+
 
 ## To Install This Project
 
