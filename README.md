@@ -8,9 +8,9 @@
 </p>
 
 
-## To Install this Project
+## To Install This Project
 
-<h3>Run this follwing command in terminal: </h3>
+<h3>Run this following command in terminal: </h3>
 
 
 ```
@@ -22,9 +22,9 @@ then:
 npm install
 ```
 
-## To run Project
+## To Run This Project
 
-<h3>Run this follwing command in terminal: </h3> 
+<h3>Run this following command in terminal: </h3> 
 
 ```
 npm run dev
