@@ -41,8 +41,7 @@ Create a database with the name ```alaska_db```
 
 
 
-Duplicate .env.example and rename with .env
-fill in ``DB_DATABASE`` with ```alaska_db``` and fill in the rest according to your database settings.
+Duplicate .env.example and rename with .env, then fill in ``DB_DATABASE`` with ```alaska_db``` and fill in the rest according to your database settings.
 ```
 DB_DATABASE=alaska_db
 ```
