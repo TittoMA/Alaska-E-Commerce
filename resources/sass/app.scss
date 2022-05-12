@@ -1,0 +1,95 @@
+@import '~bootstrap';
+@import "~bootstrap-icons/font/bootstrap-icons";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: #f2f2f4;
+
+    
+    a {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        text-decoration: none;
+        color: #f4473e;
+    }
+
+    h6,
+    h5,
+    h4,
+    h3,
+    h2,
+    h1 {
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+    }
+
+    hr {
+        border-radius: 10px;
+        color: #fd6464;
+        margin-top: 10px;
+        opacity: 1;
+    }
+
+    p {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+    }
+
+    .btn-check:focus + .btn,
+    .btn:focus {
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(253, 141, 13, 0.25);
+    }
+
+    .form-control:focus {
+        color: #212529;
+        background-color: #fff;
+        border-color: #f4473e;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(253, 141, 13, 0.25);
+    }
+
+    .navbar-light .navbar-nav .show > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #FE615A;
+        font-weight: bold;
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link:focus {
+        color: #FE615A;
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: #ff9182;
+    }
+
+    .br-card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .def-button {
+        background-color: #FE615A;
+        border-color: #FE615A;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 15px;
+        transition: 0.3s;
+    }
+
+    .def-button:hover {
+        background-color: #f14c44;
+        border-color: #f14c44;
+        color: #fff;
+    }
+
+    .def-shadow {
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+            rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+
+
+}
